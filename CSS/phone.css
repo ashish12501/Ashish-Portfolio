@@ -2,24 +2,18 @@
     margin: 0;
     padding: 0;
 }
-
-
 html{
     scroll-behavior: smooth;
 }
-
 .devicons {
     margin-top: 12vh;
     position: absolute;
     left: 15px;
 }
-
 .devicons img{
     padding: 17px 15px;
     height: 3vh;
   }
-
-
 .nav{
     display: flex;
     flex-direction: column;
@@ -31,7 +25,6 @@ html{
     background-color: white;
     text-decoration: none; 
     opacity: 100%;
-
   }
   
   #navbar{
@@ -43,7 +36,6 @@ html{
     align-items: center;
     position: sticky;
   }
-
 #navbar h1{
     display: flex;
     float: left;
@@ -51,7 +43,6 @@ html{
     padding-left: 5vw;
     font-size: 0.9rem;
   }
-
 #navbar ul li a{
     padding: 0.8vh 1.1vw 0.2vh 1.1vw;
     font-size: 0.7rem;
@@ -63,7 +54,6 @@ html{
     height: 50%;
     opacity: 100%;
 }
-
 .main .leftbox {
     width: 100vw;
     height: 38vh;
@@ -81,19 +71,14 @@ html{
     width: 30vw;
     height: 43vh;
 }
-
 .rightbox img {
     width: 61vw;
     height: 49vw;
     padding-right: 0px;
 }
-
 .devdata .scrolldown {
     margin-top: 0px;
 }
-
-
-
 /* **************ABOUTME********************* */
 /* **************ABOUTME********************* */
 /* **************ABOUTME********************* */
@@ -105,13 +90,10 @@ html{
 .myinfo{
     margin-top:8vh;
 }
-
-
 .box1 {
     width: 75vw;
     height: 30vh;
 }
-
 .box1 .infoimg img{
     width: 69vw;
     height: 25vh;
@@ -119,7 +101,6 @@ html{
 .intro{
     margin-bottom: 0px;
 }
-
 .aboutboxes .box2txt{
   padding-top: 2vh;
 }
@@ -130,14 +111,10 @@ html{
 .box2 .box2txt{
     padding: 3.5vh 0;
 }
-
 .box2 .experience{
     margin-bottom: 2vh;
 }
-
-
 /* *****************SKILLS****************** */
-
 .box3{
     width: 80vw;
     height: 44vh;
@@ -146,14 +123,11 @@ html{
     width: 80vw;
     height: 39vh;
 }
-
 .skillfull{
     width: 76vw;
 }
-
 .htmlact{
     width: 55vw;
-
 }
 .cssact{
     width: 60vw ;
@@ -168,7 +142,6 @@ html{
 }
 .figmaact{
     width: 50vw ;
-
 }
 .C{
     width: 55vw;
@@ -183,11 +156,11 @@ html{
   .datastructures{
     width: 21vw;
   }
-
 /* #Skill .skillcategory{
     padding-bottom: 0vh;
     padding-top: 3vh;
 } */
+
 /***********************************************************************/
 .comsk {
     padding-top: 1vh;
@@ -197,23 +170,16 @@ html{
 .skillcategory {
     padding-top: 5vh;
 }
-.box4 .Coder{
-    margin-top: 3vh;
-}
-
 /* ((((((((((((((((())))))))))))))))) */
-
 .innerbox {
     height: 41vh;
     width: 65vw;
     font-size: 1.5rem;
 }
-
 .box5 , .box6{
     height: 48vh;
 width: 30vw;
 }
-
 .box7 {
     display: flex;
     flex-direction: column;
@@ -224,9 +190,8 @@ width: 30vw;
 }
 
 .innerbox7 {
-    padding-bottom: 2vh;
+    padding-bottom: 0vh;
     padding-left: 0.5vw;
-    padding-top: 2.5vh;
 }
 
 .box8{
@@ -235,7 +200,6 @@ width: 30vw;
     width: 78vw;
     margin-top: 3vh;
 }
-
 #contactme input {
     width: 100%;
     height: 8vh;
@@ -243,4 +207,8 @@ width: 30vw;
 }
 #contactme .comcon {
     padding: 10px 0;
+}
+.innerbox7 {
+    padding-bottom: 0vh;
+    padding-left: 0vw;
 }
