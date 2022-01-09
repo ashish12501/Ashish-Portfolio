@@ -190,7 +190,7 @@ html{
 } */
 /***********************************************************************/
 .comsk {
-    padding-top: 1vh;
+    padding-top: 1.5vh;
     padding-bottom: 1.5vh;
 }
 
@@ -223,7 +223,7 @@ width: 30vw;
 .innerbox7 {
     padding-bottom: 2vh;
     padding-left: 0.5vw;
-    padding-top: 2vh;
+    padding-top: 2.5vh;
 }
 
 .box8{
@@ -240,9 +240,4 @@ width: 30vw;
 }
 #contactme .comcon {
     padding: 10px 0;
-}
-
-.innerbox7 {
-    padding-bottom: 0vh;
-    padding-left: 0vw;
 }
