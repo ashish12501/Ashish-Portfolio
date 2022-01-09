@@ -39,7 +39,7 @@ html{
     flex-direction: row;
     width: 100vw;
     height: 5vh;
-    padding-top: 20px;
+    padding-top: 10px;
     align-items: center;
     position: sticky;
   }
