@@ -188,10 +188,10 @@ html{
     padding-bottom: 0vh;
     padding-top: 3vh;
 } */
-
+/***********************************************************************/
 .comsk {
     padding-top: 1vh;
-    padding-bottom: 1vh;
+    padding-bottom: 1.5vh;
 }
 
 .skillcategory {
@@ -221,8 +221,9 @@ width: 30vw;
 }
 
 .innerbox7 {
-    padding-bottom: 0vh;
+    padding-bottom: 2vh;
     padding-left: 0.5vw;
+    padding-top: 2vh;
 }
 
 .box8{
