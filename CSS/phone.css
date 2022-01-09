@@ -184,17 +184,17 @@ html{
     width: 21vw;
   }
 
-#Skill .skillcategory{
+/* #Skill .skillcategory{
     padding-bottom: 0vh;
     padding-top: 3vh;
-}
+} */
 
 .comsk {
     padding-top: 1.5vh;
 }
 
 .skillcategory {
-    padding-top: 2vh;
+    padding-top: 5vh;
 }
 
 /* ((((((((((((((((())))))))))))))))) */
