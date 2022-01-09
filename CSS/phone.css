@@ -100,7 +100,10 @@ html{
 .aboutboxes{
     flex-direction: column;
     align-items: center;
-    margin-top: 15px;
+    margin-top: 30px;
+}
+.myinfo{
+    margin-top:8vh;
 }
 
 
@@ -141,7 +144,7 @@ html{
 }
 .box4{
     width: 80vw;
-    height: 38vh;
+    height: 39vh;
 }
 
 .skillfull{
