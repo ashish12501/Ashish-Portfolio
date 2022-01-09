@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+.devicons {
+    margin-top: 12vh;
+    position: absolute;
+    left: 15px;
+}
+
+.devicons img{
+    padding: 17px 15px;
+    height: 3vh;
+  }
+
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 5vh;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    text-decoration: none; 
+    opacity: 100%;
+
+  }
+  
+  #navbar{
+    display: block;
+    flex-direction: row;
+    width: 100vw;
+    height: 5vh;
+    padding-top: 20px;
+    align-items: center;
+    position: sticky;
+  }
+
+#navbar h1{
+    display: flex;
+    float: left;
+    font-family: 'Bree Serif', serif;
+    padding-left: 5vw;
+    font-size: 0.9rem;
+  }
+
+#navbar ul li a{
+    padding: 0.8vh 1.1vw 0.2vh 1.1vw;
+    font-size: 0.7rem;
+}
+.main{
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100vw;
+    height: 50%;
+    opacity: 100%;
+}
+
+.main .leftbox {
+    width: 100vw;
+    height: 38vh;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.rightbox{
+    justify-content: center;
+    padding-left: 20px;
+    
+}
+.main .rightbox {
+    width: 30vw;
+    height: 43vh;
+}
+
+.rightbox img {
+    width: 61vw;
+    height: 49vw;
+    padding-right: 0px;
+}
+
+.devdata .scrolldown {
+    margin-top: 0px;
+}
+
+
+
+/* **************ABOUTME********************* */
+/* **************ABOUTME********************* */
+/* **************ABOUTME********************* */
+.aboutboxes{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+
+.box1 {
+    width: 75vw;
+    height: 27vh;
+}
+
+.box1 .infoimg img{
+    width: 69vw;
+    height: 25vh;
+}
+.intro{
+    margin-bottom: 0px;
+}
+
+.aboutboxes .box2txt{
+  padding-top: 2vh;
+}
+.box2 {
+    width: 82vw;
+    height: 29vh;
+}
+.box2 .box2txt{
+    padding: 3.5vh 0;
+}
+
+.box2 .experience{
+    margin-bottom: 2vh;
+}
+
+
+/* *****************SKILLS****************** */
+
+.box3{
+    width: 80vw;
+    height: 44vh;
+}
+.box4{
+    width: 80vw;
+    height: 38vh;
+}
+
+.skillfull{
+    width: 76vw;
+}
+
+.htmlact{
+    width: 55vw;
+
+}
+.cssact{
+    width: 60vw ;
+}
+.reactact{
+    width: 10vw ;
+    
+}
+.javascriptact{
+    width:18vw;
+    
+}
+.figmaact{
+    width: 50vw ;
+
+}
+.C{
+    width: 55vw;
+  }
+  
+  .Cplusplus{
+    width: 65vw;
+  }
+  .python{
+    width: 26vw;
+  }
+  .datastructures{
+    width: 21vw;
+  }
+
+#Skill .skillcategory{
+    padding-bottom: 0vh;
+    padding-top: 3vh;
+}
+
+.comsk {
+    padding-top: 1.5vh;
+}
+
+.skillcategory {
+    padding-top: 2vh;
+}
+
+/* ((((((((((((((((())))))))))))))))) */
+
+.innerbox {
+    height: 41vh;
+    width: 65vw;
+    font-size: 1.5rem;
+}
+
+.box5 , .box6{
+    height: 48vh;
+width: 30vw;
+}
+
+.box7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0vh;
+    height: 27vh;
+    width: 78vw;
+}
+
+.innerbox7 {
+    padding-bottom: 0vh;
+    padding-left: 0.5vw;
+}
+
+.box8{
+    flex-direction: column;
+    height: 75vh;
+    width: 78vw;
+    margin-top: 3vh;
+}
+
+#contactme input {
+    width: 100%;
+    height: 8vh;
+    margin: 0.5vh 0;
+}
+#contactme .comcon {
+    padding: 10px 0;
+}
+
+.innerbox7 {
+    padding-bottom: 0vh;
+    padding-left: 0vw;
+}

@@ -1,0 +1,552 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+.nav{
+  display: flex;
+  width: 100vw;
+  height: 11vh;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  text-decoration: none;
+}
+
+#navbar{
+  display: block;
+  flex-direction: row;
+  width: 100vw;
+  height: 10vh;
+  padding-top: 20px;
+  align-items: center;
+  position: sticky;
+  
+}
+
+#navbar h1{
+  display: flex;
+  float: left;
+  font-family: 'Bree Serif', serif;
+  padding-left: 9vw;
+
+}
+
+#navbar ul{
+  display: flex;
+  list-style: none;
+  float: right;
+  padding-right: 9vw;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  
+}
+
+
+
+#navbar ul li a{
+  padding: 1vh 1.6vw 0 1.6vw;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: black;
+
+}
+
+#navbar ul li:hover{
+  cursor: pointer;  
+}
+
+
+#Home{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.main{
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+}
+
+.main .leftbox{
+   width: 45vw;
+   height: 92vh;
+   float: left;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.main .rightbox{
+   width: 30vw;
+   height: 70vh;
+  float: right;
+  display: flex;
+}
+
+.rightbox img{
+  width: 25vw;
+  height: 25vw;
+  padding-right: 20px;
+  padding-top: 10vh;
+}
+
+
+.devicons{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30vh;
+}
+
+.devicons img{
+  padding: 12px 15px;
+  height: 25px;
+}
+
+
+.leftbox .devdata{
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+.devdata .devname{
+  font-size: 2.5rem;
+  padding: 0 40px;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+.devdata .work{
+  font-size: 1.4rem;
+  padding: 8px 40px;
+  font-family: 'Baloo Bhai', cursive;
+  
+}
+
+.devdata .description{
+  font-family: 'Bree Serif', serif;
+  
+  padding: 4px 40px;
+}
+
+
+.devdata .button{
+  width: fit-content;
+  border-radius: 10px;
+  padding: 40px;
+  font-size: 0.8rem;
+  padding: 16px 15px;
+  margin-left: 40px;
+  margin-top: 25px;
+  background-color: rgba(95, 84, 221, 1);
+  
+}
+
+.devdata .button a{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+}
+
+
+.button:hover{
+  background-color: rgb(81, 72, 180);
+  color: white;
+}
+
+
+.devdata .scrolldown{
+  margin-top: 60px;
+  margin-left: 40px;
+  font-family: 'Bree Serif', serif;
+  display: flex;
+  align-items: center;
+}
+.devdata .scrolldown img{
+  height: 18px;
+  padding-left: 5px;
+}
+  
+
+/* -----------------------<<<<<<----------*********ABOUT***************--------------<<<<--------------------------- */
+/* ----------------------->>>>>>---------*********ABOUT***************--------->>>>-------------------------------- */
+/* -----------------------<<<<<---------*********ABOUT***************---------<<<<-------------------------------- */
+
+
+.myinfo{
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  /* margin-bottom: ; */
+  font-size: 2rem;
+  margin-top: 6vh;
+}
+
+.intro{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+
+}
+
+.aboutboxes{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+.box1{
+  display: flex;
+  height: 50vh;
+  width: 30vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.box1 .infoimg img{
+  height: 39vh;
+  width: 28vw;
+  border-radius: 15px;
+}
+
+.box2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50vh;
+  width: 30vw;
+  margin-left: 20px;
+
+}
+
+.box2 .box2txt{
+  font-family: 'Poppins', sans-serif;
+  font-size: 00.9rem;
+  padding: 6vh 0px;
+}
+
+.box2 .fig{
+  display: flex;
+  justify-content: center;
+}
+.box2 .fig b{
+  font-size: 2.0rem;
+  
+}
+
+.box2 .experience{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 7vh;
+}
+
+.experience .exp{
+  margin-right: 40px;
+}
+
+ .button{
+  width: fit-content;
+  border-radius: 10px;
+  padding: 16px 28px;
+  margin-bottom: 8vh;
+  display: flex;
+  flex-direction: row;
+  font-size: 0.8rem;
+  background-color: rgba(95, 84, 221, 1);
+  color: white;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/* -----------------------<<<<<<----------*********SKILLS***************--------------<<<<--------------------------- */
+/* ----------------------->>>>>>---------*********SKILLS***************--------->>>>-------------------------------- */
+/* -----------------------<<<<<---------*********SKILLS***************---------<<<<-------------------------------- */
+#Skills{
+  display: flex;
+  flex-direction: column;
+}
+
+.myskills{
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+  padding-bottom: 4vh;
+}
+
+.box3{
+  display: flex;
+  flex-direction: column;
+  height: 53vh;
+  width: 30vw;
+}
+
+.box4{
+  display: flex;
+  flex-direction: column;
+  height: 53vh;
+  width: 30vw;
+}
+
+.skillcategory{
+  display: flex;
+  padding-bottom: 2vh;
+  padding-top: 5vh;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3rem;
+}
+.skillcategory img{
+  height: 28px;
+  padding-right: 5px;
+}
+
+.skillname{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  padding: 6px 0 ;
+  
+}
+
+.skillfull{
+  width: 25vw;
+  height: 1vh;
+  background-color: rgb(177, 172, 235);
+  border-radius: 6px;
+}
+
+.actual{
+  height: 1vh;
+  background-color: rgba(95, 84, 221, 1);
+  border-radius: 6px;
+}
+.htmlact{
+  width: 18vw;
+}
+
+.cssact{
+  width: 21vw;
+}
+
+.javascriptact{
+  width: 5vw;
+}
+
+.reactact{
+  width: 2vw;
+}
+
+.figmaact{
+  width: 15vw;
+}
+
+.C{
+  width: 15vw;
+}
+
+.Cplusplus{
+  width: 19vw;
+}
+.python{
+  width: 13vw;
+}
+.datastructures{
+  width: 11vw;
+}
+
+.comsk{
+  padding-top: 2vh;
+  padding-left: 2vw;
+}
+
+
+
+/* ******************((((((((((((((((((Services))))))))))))))))))*************************** */
+/* ******************((((((((((((((((((Services))))))))))))))))))*************************** */
+/* ******************((((((((((((((((((Services))))))))))))))))))*************************** */
+
+.box5{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 53vh;
+  width: 30vw;
+}
+
+.box6{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 53vh;
+  width: 30vw;
+}
+
+.innerbox{
+  display: flex;
+  height: 48vh;
+  width: 18vw;
+  flex-direction: column;
+  background-color: rgb(235, 241, 253);
+  border: 2px solid rgb(218, 217, 217);
+  border-radius: 11px;
+  justify-content: flex-end;
+  font-size: 1.2rem;
+  font-family: 'Poppins', sans-serif;
+  
+
+}
+
+.worklogo img{
+  height: 35px;
+  padding-left: 2vw;
+}
+.work{
+  padding-left: 2vw;
+  padding-right: 5vw;
+  padding-bottom: 9vh;
+
+}
+/* ************************************************ */
+/* ************************************************ */
+/* ************************************************ */
+
+.box7{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 8vh;
+  height: 75vh;
+  width: 30vw;
+}
+
+.innerbox7{
+  padding-bottom: 33vh;
+  padding-left: 4.5vw;
+}
+.box8{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 75vh;
+  width: 35vw;
+  margin-top: 8vh;
+}
+
+.mydata{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+}
+
+#contactme input {
+  width: 100%;
+  height: 10vh;
+  background-color: rgb(224, 223, 250);
+  color: black;
+  margin: 1.5vh 0;
+  border-radius: 5px;
+  padding-left: 1vw;
+  border-width:0px;
+  border:none;
+  outline:none;
+}
+
+#contactme textarea{
+  background-color: rgb(224, 223, 250);
+  border-radius: 5px;
+  width: 100%;
+  border-width:0px;
+  border:none;
+  outline:none;
+  margin-top: 1vh;
+  padding-top: 1vh;
+  height: 35vh;
+}
+
+#contactme .form-group1{
+  display: flex;
+  flex-direction: row;
+}
+#contactme .form-group2{
+  display: flex;
+}
+#contactme #mail{
+  margin-left: 1.5vw;
+}
+
+#contactme .comcon{
+  display: flex;
+  flex-direction: row;
+  padding: 5px 0;
+}
+
+#contactme .comcon img{
+  height: 35px;
+  padding-top: 13px;
+  padding-right: 10px;
+}
+
+#contactme .button{
+  margin-top: 1.5vh;
+
+}
+
+
+.button img{
+  height: 20px;
+  padding-left: 5px;
+}
+/* /* ************************************************************************************ */
+/* /* ************************************************************************************\ */
+/* /* ************************************************************************************ */
+#footer{
+  display: flex;
+  flex-direction: column;
+  height: 25vh;
+  width: 100vw;
+  background-color:rgba(95, 84, 221, 1) ;
+  justify-content: center;
+  align-items: center;
+  color: rgb(177, 172, 235);
+  
+}
+
+#footer .box{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#footer .box .devname{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  padding: 0 15px 25px 15px;
+  margin-right: 10vw;
+}
+#footer .box .devname h1{
+  font-family: 'Poppins', sans-serif;
+  
+}
+.footericons{
+  margin-left: 10vw;
+}
+.footericons img{
+  height: 25px;
+  padding: 0 20px 20px 20px;
+}
