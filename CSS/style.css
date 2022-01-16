@@ -188,7 +188,6 @@ html{
   display: flex;
   justify-content: center;
   font-family: 'Poppins', sans-serif;
-  /* margin-bottom: ; */
   font-size: 2rem;
   margin-top: 6vh;
 }
@@ -268,12 +267,7 @@ html{
   background-color: rgba(95, 84, 221, 1);
   color: white;
   cursor: pointer;
-  /* font-family: 'Poppins', sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-} */
+
 }
 .button a{
   font-size: 0.8rem;
@@ -284,7 +278,6 @@ html{
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  /* text-align: center; */
 }
 
 
